@@ -3289,74 +3289,39 @@ body:has(.room-header) .review p { color: #777 !important; font-size: 14px !impo
   .os-testimonial-card { padding: 24px; }
 }
 
-/* =============================================
-   NAVBAR SAFETY FIX
-   Keep Bootstrap dropdowns isolated from page-specific dropdown styles.
-   ============================================= */
 
-#mainNavbar {
-  position: relative;
-  z-index: 1030;
-  background: rgba(255, 255, 255, 0.96) !important;
-}
 
-#mainNavbar .dropdown-toggle {
-  background: transparent;
-  border: 0;
-  min-width: auto;
-  padding: 8px 16px !important;
-  color: var(--tt-text);
-}
 
-#mainNavbar .dropdown-toggle:hover,
-#mainNavbar .dropdown-toggle:focus {
-  color: var(--tt-blue);
-  background: transparent;
-  box-shadow: none;
-}
 
-#mainNavbar .dropdown-menu {
-  min-width: 200px;
-  margin-top: 0;
-  padding: 8px 0;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-}
 
-#mainNavbar .dropdown-menu .dropdown-item {
-  padding: 8px 20px;
-  font-size: 14px;
-}
 
-#mainNavbar .dropdown-menu .dropdown-item:hover,
-#mainNavbar .dropdown-menu .dropdown-item:focus {
-  background: var(--tt-blue-light);
-  color: var(--tt-blue);
-}
 
-@media (max-width: 991.98px) {
-  #mainNavbar .dropdown-toggle {
-    padding: 8px 0 !important;
-  }
-}
 
-/* =============================================
-   SEARCH PAGES — restored from the 4104-line team CSS
-   Scoped so the working Travora base stays intact.
-   ============================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Room Search Page */
-
-/* Room Search Page */
-
 .search-hero-title {
     background: #f2f1ee;
     text-align: center;
     padding: 60px 20px;
     margin-bottom: 40px;
 }
-
 .search-hero-title h1 {
     font-family: Georgia, 'Times New Roman', serif;
     font-size: 40px;
@@ -3365,7 +3330,7 @@ body:has(.room-header) .review p { color: #777 !important; font-size: 14px !impo
     margin: 0;
 }
 
-body:has(.search-hero-title) .filter-box {
+.filter-box {
     border: 1px solid #eee;
     border-radius: 6px;
     padding: 22px;
@@ -3373,7 +3338,7 @@ body:has(.search-hero-title) .filter-box {
     background: #fff;
 }
 
-body:has(.search-hero-title) .filter-title {
+.filter-title {
     font-size: 15px;
     color: #3b7ddd;
     font-weight: 600;
@@ -3397,13 +3362,11 @@ body:has(.search-hero-title) .filter-title {
     font-size: 13px;
     color: #333;
 }
-
 .filter-box .form-control:focus,
 .filter-box .form-select:focus {
     border-color: #3b7ddd;
     box-shadow: none;
 }
-
 .filter-box .form-check-input {
     accent-color: #3b7ddd;
 }
@@ -3481,7 +3444,7 @@ body:has(.search-hero-title) .room-desc {
     line-height: 1.6;
 }
 
-body:has(.search-hero-title) .room-card .text-warning {
+.room-card .text-warning {
     color: #f0a63b !important;
 }
 
@@ -3584,50 +3547,29 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
 
 
 
-
-
-
-
-
-
-
-
-/*tour search  */
-
-.hero {
-  background: #f2f1ee;
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.hero h1 {
-  font-family: Georgia, 'Times New Roman', serif;
-  font-size: 40px;
-  font-weight: 700;
-  color: #1b1d24;
-}
+/* Tour Search */
 
 
 
 /* Tour Search Page */
 .search-page {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 40px;
-  display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 30px;
-  align-items: start;
+max-width: 1300px;
+margin: 0 auto;
+padding: 40px;
+display: grid;
+grid-template-columns: 280px 1fr;
+gap: 30px;
+align-items: start;
 }
 
-.search-page .filter-box {
+.filter-box {
   border: 1px solid #eee;
   border-radius: 6px;
   padding: 22px;
   margin-bottom: 20px;
 }
 
-.search-page .filter-box h3 {
+.filter-box h3 {
   font-size: 15px;
   color: #3b7ddd;
   margin-bottom: 18px;
@@ -3636,7 +3578,7 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
   justify-content: space-between;
 }
 
-.search-page .filter-box h3.collapsible {
+.filter-box h3.collapsible {
   cursor: pointer;
 }
 
@@ -3645,11 +3587,11 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
   font-weight: 400;
 }
 
-.search-page .field {
+.field {
   margin-bottom: 16px;
 }
 
-.search-page .field label {
+.field label {
   display: block;
   font-size: 12.5px;
   font-weight: 600;
@@ -3659,7 +3601,7 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
 
 .field input[type="text"],
 .field input[type="number"],
-.search-page .field select {
+.field select {
   width: 100%;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -3669,17 +3611,17 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
   background: #fff;
 }
 
-.search-page .input-icon {
+.input-icon {
   position: relative;
   display: flex;
   align-items: center;
 }
 
-.search-page .input-icon input {
+.input-icon input {
   flex: 1;
 }
 
-.search-page .input-icon button {
+.input-icon button {
   position: absolute;
   right: 8px;
   border: none;
@@ -3688,55 +3630,55 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
   color: #999;
 }
 
-.search-page .calendar-ico {
+.calendar-ico {
   position: absolute;
   left: 10px;
   font-size: 13px;
 }
 
-.search-page .input-icon .calendar-ico + input {
+.input-icon .calendar-ico + input {
   padding-left: 30px;
 }
 
-.search-page .price-fields {
+.price-fields {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
 
-.search-page .rating-line {
+.rating-line {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.search-page .stars {
+.stars {
   color: #f0a63b;
   letter-spacing: 2px;
   font-size: 14px;
 }
 
-.search-page .or-more {
+.or-more {
   font-size: 12px;
   color: #888;
 }
 
-.search-page .clear-filter {
+.clear-filter {
   font-size: 12.5px;
   color: #3b7ddd;
 }
 
-.search-page .filter-group {
+.filter-group {
   margin-bottom: 18px;
 }
 
-.search-page .filter-group h4 {
+.filter-group h4 {
   font-size: 13px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.search-page .checkbox {
+.checkbox {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -3746,16 +3688,16 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
   cursor: pointer;
 }
 
-.search-page .checkbox input {
+.checkbox input {
   accent-color: #3b7ddd;
 }
 
-.search-page .more-link {
+.more-link {
   font-size: 12.5px;
   color: #3b7ddd;
 }
 
-.search-page .btn-search-submit {
+.btn-search-submit {
   width: 100%;
   background: #3b7ddd;
   color: #fff;
@@ -3768,21 +3710,21 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
   cursor: pointer;
 }
 
-.search-page .btn-search-submit:hover {
+.btn-search-submit:hover {
   background: #2f68bd;
 }
 
-.search-page .results-header {
+.results-header {
   margin-bottom: 16px;
 }
 
-.search-page .results-count {
+.results-count {
   font-size: 14px;
   font-weight: 700;
   color: #1b1d24;
 }
 
-.search-page .sort-bar {
+.sort-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -3792,7 +3734,7 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
   margin-bottom: 20px;
 }
 
-.search-page .sort-left {
+.sort-left {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -3800,14 +3742,14 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
   color: #555;
 }
 
-.search-page .sort-left select {
+.sort-left select {
   border: none;
   font-size: 13px;
   color: #333;
   cursor: pointer;
 }
 
-.search-page .view-toggle button {
+.view-toggle button {
   border: none;
   background: none;
   font-size: 16px;
@@ -3816,63 +3758,64 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
   padding: 4px 6px;
 }
 
-.search-page .view-toggle button.active {
+.view-toggle button.active {
   color: #3b7ddd;
 }
 
-.search-page .tour-grid {
+.tour-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
 }
 
-.search-page .tour-card {
+.tour-card {
   border: 1px solid #eee;
   border-radius: 8px;
   overflow: hidden;
   transition: box-shadow .2s ease;
 }
 
-.search-page .tour-card:hover {
+.tour-card:hover {
   box-shadow: 0 6px 20px rgba(0,0,0,.08);
 }
 
-.search-page .tour-thumb {
+.tour-thumb {
   position: relative;
   height: 200px;
   overflow: hidden;
 }
 
-.search-page .tour-thumb img {
+.tour-thumb img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
 
-.badge {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  background: #3b7ddd;
-  color: #fff;
-  font-size: 11px;
-  font-weight: 600;
-  padding: 4px 10px;
-  border-radius: 3px;
+.search-page .badge {
+position: absolute;
+top: 12px;
+left: 12px;
+z-index: 2;
+background: #3b7ddd;
+color: #fff;
+font-size: 11px;
+font-weight: 600;
+padding: 4px 10px;
+border-radius: 3px;
 }
 
-.badge.special {
-  background: #e07a3f;
+.search-page .badge.special {
+background: #e07a3f;
 }
 
-.search-page .tour-info {
+.tour-info {
   padding: 16px 18px 20px;
   display: block;
   color: #333;
 }
 
-.search-page .tour-info h3 {
+.tour-info h3 {
   font-size: 15px;
   font-weight: 700;
   color: #1b1d24;
@@ -3880,44 +3823,44 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
   line-height: 1.4;
 }
 
-.search-page .tour-rating {
+.tour-rating {
   display: flex;
   align-items: center;
   gap: 6px;
   margin-bottom: 10px;
 }
 
-.search-page .tour-rating .stars {
+.tour-rating .stars {
   font-size: 12px;
 }
 
-.search-page .tour-rating .review-count {
+.tour-rating .review-count {
   font-size: 12px;
   color: #999;
 }
 
-.search-page .tour-price {
+.tour-price {
   font-size: 13px;
   color: #888;
 }
 
-.search-page .tour-price .old-price {
+.tour-price .old-price {
   text-decoration: line-through;
   margin-right: 6px;
   color: #aaa;
 }
 
-.search-page .tour-price .new-price {
+.tour-price .new-price {
   color: #3b7ddd;
   font-weight: 700;
   font-size: 16px;
 }
 
-.search-page .video-thumb {
+.video-thumb {
   cursor: pointer;
 }
 
-.search-page .play-btn {
+.play-btn {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -3935,12 +3878,12 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
   transition: background .2s ease, transform .2s ease;
 }
 
-.search-page .video-thumb:hover .play-btn {
+.video-thumb:hover .play-btn {
   background: #3b7ddd;
   transform: translate(-50%, -50%) scale(1.08);
 }
 
-.search-page .video-modal {
+.video-modal {
   display: none;
   position: fixed;
   inset: 0;
@@ -3950,24 +3893,24 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
   justify-content: center;
 }
 
-.search-page .video-modal.open {
+.video-modal.open {
   display: flex;
 }
 
-.search-page .video-box {
+.video-box {
   position: relative;
   width: 80%;
   max-width: 1000px;
   aspect-ratio: 16 / 9;
 }
 
-.search-page .video-box iframe {
+.video-box iframe {
   width: 100%;
   height: 100%;
   border: 0;
 }
 
-.search-page .close-video {
+.close-video {
   position: absolute;
   top: -40px;
   right: 0;
@@ -3976,19 +3919,19 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
   cursor: pointer;
 }
 
-.search-page .pagination-wrap {
+.pagination-wrap {
   display: flex;
   justify-content: flex-end;
   margin-top: 30px;
 }
 
-.search-page .pagination {
+.pagination {
   display: flex;
   gap: 6px;
   list-style: none;
 }
 
-.search-page .pagination li button {
+.pagination li button {
   width: 32px;
   height: 32px;
   border: none;
@@ -4000,37 +3943,41 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
   transition: all .2s ease;
 }
 
-.search-page .pagination li button:hover {
+.pagination li button:hover {
   background: #dfe2ea;
 }
 
-.search-page .pagination li button.active {
+.pagination li button.active {
   background: #3b7ddd;
   color: #fff;
 }
 
-@media (max-width: 960px) {
-  .search-page {
-    grid-template-columns: 1fr;
-  }
+#tourGrid {
+transition: opacity .35s ease, transform .35s ease;
+}
 
-  .search-page .tour-grid {
+@media (max-width: 960px) {
+.search-page {
+grid-template-columns: 1fr;
+padding: 30px;
+}
+
+  .tour-grid {
     grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 600px) {
-  .search-page {
-    padding: 20px;
-  }
+.search-page {
+padding: 20px;
 }
 
-.search-page .dropdown {
+.dropdown {
   position: relative;
   display: inline-block;
 }
 
-.search-page .dropdown-toggle {
+.dropdown-toggle {
   background: #fff;
   border: 1px solid #ddd;
   padding: 0px 0px;
@@ -4044,7 +3991,7 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
   gap: 10px;
 }
 
-.search-page .dropdown-menu {
+.dropdown-menu {
   position: absolute;
   top: 100%;
   left: 0;
@@ -4058,22 +4005,22 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
   display: none;
 }
 
-.search-page .dropdown.open .dropdown-menu {
+.dropdown.open .dropdown-menu {
   display: block;
 }
 
-.search-page .dropdown-menu li {
+.dropdown-menu li {
   padding: 9px 16px;
   font-size: 14px;
   color: #3d3c3a;
   cursor: pointer;
 }
 
-.search-page .dropdown-menu li:hover {
+.dropdown-menu li:hover {
   background: #f5f5f5;
 }
 
-.search-page .dropdown-menu li.selected {
+.dropdown-menu li.selected {
   background: #6f6f6f;
   color: #fff;
 }
@@ -4096,78 +4043,15 @@ body:has(.search-hero-title) .room-card .text-decoration-none:hover {
   display: inline-block;
 }
 
-.tour-search-link {
-  display: inline-block;
+.search-page .tour-thumb {
+height: 220px;
 }
 
-.tour-search-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: -15px;
-  min-width: 140px;
-  background: #ffffff;
-  padding: 8px 0;
-  margin-top: 0;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-  z-index: 1000;
+.video-modal-content {
+width: 95%;
 }
 
-.tour-search-menu a {
-  display: block;
-  padding: 10px 16px;
-  color: #555;
-  font-size: 13px;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.tour-search-menu a:hover {
-  background: #f5f5f5;
-  color: #3b82f6;
-}
-
-.tour-search-dropdown:hover .tour-search-menu {
-  display: block;
-}
-
-/* =============================================
-   NAVBAR PROTECTION
-   Search-page custom dropdowns must never affect
-   the Bootstrap navbar.
-   ============================================= */
-
-#mainNavbar .dropdown-toggle {
-  background: transparent;
-  border: 0;
-  min-width: auto;
-  padding: 8px 16px !important;
-  color: var(--tt-text);
-}
-
-#mainNavbar .dropdown-toggle:hover,
-#mainNavbar .dropdown-toggle:focus {
-  background: transparent;
-  color: var(--tt-blue);
-  box-shadow: none;
-}
-
-#mainNavbar .dropdown-menu {
-  min-width: 200px;
-  margin-top: 0;
-  padding: 8px 0;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-}
-
-#mainNavbar .dropdown-menu .dropdown-item {
-  padding: 8px 20px;
-  font-size: 14px;
-}
-
-#mainNavbar .dropdown-menu .dropdown-item:hover,
-#mainNavbar .dropdown-menu .dropdown-item:focus {
-  background: var(--tt-blue-light);
-  color: var(--tt-blue);
+.close-video {
+top: -35px;
+font-size: 30px;
 }

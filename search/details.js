@@ -10,7 +10,7 @@ const tours = {
     guests: 200,
     price: 100,
     images: [
-      "images/safari.jpg",   // الكبيرة للكارت 1
+      "images/safari.jpg",   
       "images/yellwo.jpg",
       "images/yellwo2.jpg",
       "images/yellwo3.jpg",
@@ -26,9 +26,9 @@ const tours = {
     guests: 200,
     price: 1200,
     images: [
-      "images/dubai.jpg", // ضعي صورة الكارت 2 الكبيرة هنا
+      "images/dubai.jpg",
       "images/valeria1.jpg", // ضعي الصورة 2 للكارت 2 هنا
-      "images/valeria2.jpg", // ضعي الصورة 3 للكارت 2 هنا
+      "images/valeria2.jpg", // ضعي الصورة 3كارت 2 هنا
       "images/valeria3.jpg", // ضعي الصورة 4 للكارت 2 هنا
       "images/valeria4.jpg"  // ضعي الصورة 5 للكارت 2 هنا
     ]

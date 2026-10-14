@@ -101,29 +101,30 @@ document.addEventListener("click", function (e) {
   }
 });
 
+
 let toursData = [
-  { id: 1, title: "Africa - Amazing African Safari", price: 100, oldPrice: null, image: "images/safari.jpg", badge: "Best Seller", rating: 5, reviews: 1, type: "image", durationDays: 7 },
-  { id: 2, title: "Dubai – All Stunning Places", price: 1200, oldPrice: null, image: "images/dubai.jpg", badge: "", rating: 5, reviews: 1, type: "image", durationDays: 5 },
+  { id: 1, title: "Africa - Amazing African Safari", price: 100, oldPrice: null, image: "../assets/Images/safari.jpg", badge: "Best Seller", rating: 5, reviews: 1, type: "image", durationDays: 7 },
+  { id: 2, title: "Dubai – All Stunning Places", price: 1200, oldPrice: null, image: "../assets/images/dubai.jpg", badge: "", rating: 5, reviews: 1, type: "image", durationDays: 5 },
   { id: 3, title: "Venice, Rome and Milan – 9 Days", price: 3500, oldPrice: 4300, image: "https://img.youtube.com/vi/eZjmjT5SLYs/maxresdefault.jpg", badge: "Best Seller", rating: 5, reviews: 1, type: "video", videoId: "eZjmjT5SLYs", durationDays: 9 },
   { id: 4, title: "Cityscape Chicago 4K", price: 3500, oldPrice: 4300, image: "https://img.youtube.com/vi/eZjmjT5SLYs/maxresdefault.jpg", badge: "Best Seller", rating: 5, reviews: 1, type: "video", videoId: "eZjmjT5SLYs", durationDays: 4 },
-  { id: 5, title: "5-Day Oahu Tour: Honolulu", price: 1500, oldPrice: null, image: "images/moscow.jpg", badge: "", rating: 5, reviews: 1, type: "image", durationDays: 5 },
-  { id: 6, title: "Molokini and Turtle Snorkeling", price: 80, oldPrice: null, image: "images/sven.jpg", badge: "", rating: 5, reviews: 0, type: "image", durationDays: 1 },
-  { id: 7, title: "Two Moscow Tour of 7 days", price: 3500, oldPrice: 3880, image: "images/victoria.jpg", badge: "", rating: 5, reviews: 0, type: "image", durationDays: 7 },
-  { id: 8, title: "Paris – Eiffel Tower, Notre Dame Cath..", price: 800, oldPrice: null, image: "images/iStock.jpg", badge: "", rating: 5, reviews: 1, type: "image", durationDays: 3 },
-  { id: 9, title: "Austria – 6 Days in Vienna, Hallstatt", price: 2100, oldPrice: 3600, image: "images/austria.jpg", badge: "Special Offer", rating: 5, reviews: 1, type: "image", durationDays: 6 },
-  { id: 10, title: "Greek Island Hopping Adventure", price: 2400, oldPrice: 2900, image: "images/omar.jpg", badge: "", rating: 4, reviews: 3, type: "image", durationDays: 8 },
-  { id: 11, title: "Majestic Swiss Alps Escape", price: 3100, oldPrice: 3500, image: "images/isabella.jpg", badge: "Best Seller", rating: 5, reviews: 5, type: "image", durationDays: 7 },
-  { id: 12, title: "Tokyo & Kyoto Cultural Discovery", price: 2800, oldPrice: 3200, image: "images/samuel.jpg", badge: "", rating: 5, reviews: 2, type: "image", durationDays: 10 },
-  { id: 13, title: "Treasures of Ancient Egypt Cruise", price: 1400, oldPrice: 1700, image: "images/aline.jpg", badge: "Special Offer", rating: 4, reviews: 4, type: "image", durationDays: 5 },
-  { id: 14, title: "Phuket & Phi Phi Island Getaway", price: 950, oldPrice: 1200, image: "images/turtle.jpg", badge: "", rating: 4, reviews: 1, type: "image", durationDays: 4 },
-  { id: 15, title: "Canadian Rockies Scenic Rail Tour", price: 4100, oldPrice: 4600, image: "images/hanson.jpg", badge: "Best Seller", rating: 5, reviews: 6, type: "image", durationDays: 8 },
-  { id: 16, title: "Iceland Northern Lights Expedition", price: 2600, oldPrice: 3000, image: "images/samuel.jpg", badge: "Special Offer", rating: 5, reviews: 8, type: "image", durationDays: 6 },
-  { id: 17, title: "Costa Rica Rainforest & Volcanoes", price: 1150, oldPrice: 1350, image: "images/stephen.jpg", badge: "", rating: 4, reviews: 2, type: "image", durationDays: 7 },
-  { id: 18, title: "Morocco Desert Kasbahs & Souks", price: 990, oldPrice: 1200, image: "images/andrzej.jpg", badge: "", rating: 4, reviews: 3, type: "image", durationDays: 5 },
-  { id: 19, title: "Prague & Budapest Historic Journey", price: 1650, oldPrice: 1900, image: "images/raphael.jpg", badge: "", rating: 5, reviews: 4, type: "image", durationDays: 6 },
-  { id: 20, title: "New York City Highlights & Broadway", price: 2200, oldPrice: 2500, image: "images/moscow.jpg", badge: "Best Seller", rating: 5, reviews: 9, type: "image", durationDays: 5 },
-  { id: 21, title: "New Zealand South Island Road Trip", price: 3400, oldPrice: 3900, image: "images/turtle.jpg", badge: "", rating: 5, reviews: 7, type: "image", durationDays: 9 },
-  { id: 22, title: "Peru Machu Picchu Trekking Adventure", price: 1850, oldPrice: 2100, image: "images/cordeiro.jpg", badge: "Special Offer", rating: 4, reviews: 5, type: "image", durationDays: 8 }
+  { id: 5, title: "5-Day Oahu Tour: Honolulu", price: 1500, oldPrice: null, image: "../assets/images/moscow.jpg", badge: "", rating: 5, reviews: 1, type: "image", durationDays: 5 },
+  { id: 6, title: "Molokini and Turtle Snorkeling", price: 80, oldPrice: null, image: "../assets/images/sven.jpg", badge: "", rating: 5, reviews: 0, type: "image", durationDays: 1 },
+  { id: 7, title: "Two Moscow Tour of 7 days", price: 3500, oldPrice: 3880, image: "../assets/images/victoria.jpg", badge: "", rating: 5, reviews: 0, type: "image", durationDays: 7 },
+  { id: 8, title: "Paris – Eiffel Tower, Notre Dame Cath..", price: 800, oldPrice: null, image: "../assets/images/iStock.jpg", badge: "", rating: 5, reviews: 1, type: "image", durationDays: 3 },
+  { id: 9, title: "Austria – 6 Days in Vienna, Hallstatt", price: 2100, oldPrice: 3600, image: "../assets/images/austria.jpg", badge: "Special Offer", rating: 5, reviews: 1, type: "image", durationDays: 6 },
+  { id: 10, title: "Greek Island Hopping Adventure", price: 2400, oldPrice: 2900, image: "../assets/images/omar.jpg", badge: "", rating: 4, reviews: 3, type: "image", durationDays: 8 },
+  { id: 11, title: "Majestic Swiss Alps Escape", price: 3100, oldPrice: 3500, image: "../assets/images/isabella.jpg", badge: "Best Seller", rating: 5, reviews: 5, type: "image", durationDays: 7 },
+  { id: 12, title: "Tokyo & Kyoto Cultural Discovery", price: 2800, oldPrice: 3200, image: "../assets/images/samuel.jpg", badge: "", rating: 5, reviews: 2, type: "image", durationDays: 10 },
+  { id: 13, title: "Treasures of Ancient Egypt Cruise", price: 1400, oldPrice: 1700, image: "../assets/images/aline.jpg", badge: "Special Offer", rating: 4, reviews: 4, type: "image", durationDays: 5 },
+  { id: 14, title: "Phuket & Phi Phi Island Getaway", price: 950, oldPrice: 1200, image: "../assets/images/turtle.jpg", badge: "", rating: 4, reviews: 1, type: "image", durationDays: 4 },
+  { id: 15, title: "Canadian Rockies Scenic Rail Tour", price: 4100, oldPrice: 4600, image: "../assets/images/hanson.jpg", badge: "Best Seller", rating: 5, reviews: 6, type: "image", durationDays: 8 },
+  { id: 16, title: "Iceland Northern Lights Expedition", price: 2600, oldPrice: 3000, image: "../assets/images/samuel.jpg", badge: "Special Offer", rating: 5, reviews: 8, type: "image", durationDays: 6 },
+  { id: 17, title: "Costa Rica Rainforest & Volcanoes", price: 1150, oldPrice: 1350, image: "../assets/images/stephen.jpg", badge: "", rating: 4, reviews: 2, type: "image", durationDays: 7 },
+  { id: 18, title: "Morocco Desert Kasbahs & Souks", price: 990, oldPrice: 1200, image: "../assets/images/andrzej.jpg", badge: "", rating: 4, reviews: 3, type: "image", durationDays: 5 },
+  { id: 19, title: "Prague & Budapest Historic Journey", price: 1650, oldPrice: 1900, image: "../assets/images/raphael.jpg", badge: "", rating: 5, reviews: 4, type: "image", durationDays: 6 },
+  { id: 20, title: "New York City Highlights & Broadway", price: 2200, oldPrice: 2500, image: "../assets/images/moscow.jpg", badge: "Best Seller", rating: 5, reviews: 9, type: "image", durationDays: 5 },
+  { id: 21, title: "New Zealand South Island Road Trip", price: 3400, oldPrice: 3900, image: "../assets/images/turtle.jpg", badge: "", rating: 5, reviews: 7, type: "image", durationDays: 9 },
+  { id: 22, title: "Peru Machu Picchu Trekking Adventure", price: 1850, oldPrice: 2100, image: "../assets/images/cordeiro.jpg", badge: "Special Offer", rating: 4, reviews: 5, type: "image", durationDays: 8 }
 ];
 
 let currentSortBy = "release";

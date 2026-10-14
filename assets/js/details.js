@@ -1,3 +1,4 @@
+```js
 const params = new URLSearchParams(window.location.search);
 const tourId = Number(params.get("id")) || 1;
 
@@ -10,11 +11,11 @@ const tours = {
     guests: 200,
     price: 100,
     images: [
-      "images/safari.jpg",   // الكبيرة للكارت 1
-      "images/yellwo.jpg",
-      "images/yellwo2.jpg",
-      "images/yellwo3.jpg",
-      "images/yellwo4.jpg"
+      "../assets/Images/safari.jpg",
+      "../assets/Images/yellwo.jpg",
+      "../assets/Images/yellwo2.jpg",
+      "../assets/Images/yellwo3.jpg",
+      "../assets/Images/yellwo4.jpg"
     ]
   },
 
@@ -26,11 +27,11 @@ const tours = {
     guests: 200,
     price: 1200,
     images: [
-      "images/dubai.jpg", // ضعي صورة الكارت 2 الكبيرة هنا
-      "images/valeria1.jpg", // ضعي الصورة 2 للكارت 2 هنا
-      "images/valeria2.jpg", // ضعي الصورة 3 للكارت 2 هنا
-      "images/valeria3.jpg", // ضعي الصورة 4 للكارت 2 هنا
-      "images/valeria4.jpg"  // ضعي الصورة 5 للكارت 2 هنا
+      "../assets/Images/dubai.jpg",
+      "../assets/Images/valeria1.jpg",
+      "../assets/Images/valeria2.jpg",
+      "../assets/Images/valeria3.jpg",
+      "../assets/Images/valeria4.jpg"
     ]
   },
 
@@ -74,11 +75,11 @@ const tours = {
     guests: 200,
     price: 1500,
     images: [
-      "images/oahu.jpg",
-      "images/houcine1.jpg",
-      "images/houcine2.jpg",
-      "images/houcine3.jpg",
-      "images/hanson4.jpg"
+      "../assets/Images/oahu.jpg",
+      "../assets/Images/houcine1.jpg",
+      "../assets/Images/houcine2.jpg",
+      "../assets/Images/houcine3.jpg",
+      "../assets/Images/hanson4.jpg"
     ]
   },
 
@@ -90,11 +91,11 @@ const tours = {
     guests: 200,
     price: 80,
     images: [
-      "images/florian2.jpg",
-      "images/florian.jpg",
-      "images/florian1.jpg",
-      "images/florian3.jpg",
-      "images/florian4.jpg"
+      "../assets/Images/florian2.jpg",
+      "../assets/Images/florian.jpg",
+      "../assets/Images/florian1.jpg",
+      "../assets/Images/florian3.jpg",
+      "../assets/Images/florian4.jpg"
     ]
   },
 
@@ -106,11 +107,11 @@ const tours = {
     guests: 200,
     price: 3500,
     images: [
-      "images/cordeiro.jpg",
-      "images/mehmet1.jpg",
-      "images/mehmet2.jpg",
-      "images/mehmet3.jpg",
-      "images/mehmet4.jpg"
+      "../assets/Images/cordeiro.jpg",
+      "../assets/Images/mehmet1.jpg",
+      "../assets/Images/mehmet2.jpg",
+      "../assets/Images/mehmet3.jpg",
+      "../assets/Images/mehmet4.jpg"
     ]
   },
 
@@ -122,11 +123,11 @@ const tours = {
     guests: 200,
     price: 800,
     images: [
-      "images/iStock.jpg",
-      "images/iStock1.jpg",
-      "images/iStock2.jpg",
-      "images/iStock3.jpg",
-      "images/iStock4.jpg"
+      "../assets/Images/iStock.jpg",
+      "../assets/Images/iStock1.jpg",
+      "../assets/Images/iStock2.jpg",
+      "../assets/Images/iStock3.jpg",
+      "../assets/Images/iStock4.jpg"
     ]
   },
 
@@ -138,11 +139,11 @@ const tours = {
     guests: 200,
     price: 2100,
     images: [
-      "images/dalibor.jpg",
-      "images/dalibor1.jpg",
-      "images/dalibor2.jpg",
-      "images/dalibor3.jpg",
-      "images/dalibor4.jpg"
+      "../assets/Images/dalibor.jpg",
+      "../assets/Images/dalibor1.jpg",
+      "../assets/Images/dalibor2.jpg",
+      "../assets/Images/dalibor3.jpg",
+      "../assets/Images/dalibor4.jpg"
     ]
   },
 
@@ -154,11 +155,11 @@ const tours = {
     guests: 200,
     price: 2400,
     images: [
-      "images/brantley.jpg",
-      "images/brantley1.jpg",
-      "images/brantley2.jpg",
-      "images/brantley3.jpg",
-      "images/brantley4.jpg"
+      "../assets/Images/brantley.jpg",
+      "../assets/Images/brantley1.jpg",
+      "../assets/Images/brantley2.jpg",
+      "../assets/Images/brantley3.jpg",
+      "../assets/Images/brantley4.jpg"
     ]
   },
 
@@ -170,11 +171,11 @@ const tours = {
     guests: 200,
     price: 3100,
     images: [
-      "images/priyanka.jpg",
-      "images/priyanka1.jpg",
-      "images/priyanka2.jpg",
-      "images/priyanka.jpg",
-      "images/priyanka.jpg"
+      "../assets/Images/priyanka.jpg",
+      "../assets/Images/priyanka1.jpg",
+      "../assets/Images/priyanka2.jpg",
+      "../assets/Images/priyanka3.jpg",
+      "../assets/Images/priyanka4.jpg"
     ]
   },
 
@@ -186,11 +187,11 @@ const tours = {
     guests: 200,
     price: 2800,
     images: [
-      "images/oahu.jpg",
-      "images/schwarz1.jpg",
-      "images/schwarz2.jpg",
-      "images/schwarz3.jpg",
-      "images/schwarz4.jpg"
+      "../assets/Images/oahu.jpg",
+      "../assets/Images/schwarz1.jpg",
+      "../assets/Images/schwarz2.jpg",
+      "../assets/Images/schwarz3.jpg",
+      "../assets/Images/schwarz4.jpg"
     ]
   },
 
@@ -202,11 +203,11 @@ const tours = {
     guests: 200,
     price: 1400,
     images: [
-      "images/unsplash5.jpg",
-      "images/unsplash1.jpg",
-      "images/unsplash2.jpg",
-      "images/unsplash3.jpg",
-      "images/unsplash4.jpg"
+      "../assets/Images/unsplash5.jpg",
+      "../assets/Images/unsplash1.jpg",
+      "../assets/Images/unsplash2.jpg",
+      "../assets/Images/unsplash3.jpg",
+      "../assets/Images/unsplash4.jpg"
     ]
   },
 
@@ -218,11 +219,11 @@ const tours = {
     guests: 200,
     price: 950,
     images: [
-      "images/shutterstock.jpg",
-      "images/shutterstock1.jpg",
-      "images/shutterstock2.jpg",
-      "images/shutterstock3.jpg",
-      "images/shutterstock4.jpg"
+      "../assets/Images/shutterstock.jpg",
+      "../assets/Images/shutterstock1.jpg",
+      "../assets/Images/shutterstock2.jpg",
+      "../assets/Images/shutterstock3.jpg",
+      "../assets/Images/shutterstock4.jpg"
     ]
   },
 
@@ -234,11 +235,11 @@ const tours = {
     guests: 200,
     price: 4100,
     images: [
-      "images/jerry.jpg",
-      "images/jerry1.jpg",
-      "images/jerry2.jpg",
-      "images/jerry5.jpg",
-      "images/jerry0.jpg"
+      "../assets/Images/jerry.jpg",
+      "../assets/Images/jerry1.jpg",
+      "../assets/Images/jerry2.jpg",
+      "../assets/Images/jerry5.jpg",
+      "../assets/Images/jerry0.jpg"
     ]
   },
 
@@ -250,11 +251,11 @@ const tours = {
     guests: 200,
     price: 2600,
     images: [
-      "images/samuel.jpg",
-      "images/samuel3.jpg",
-      "images/sammy2.jpg",
-      "images/giusi.jpg",
-      "images/sammy4.jpg"
+      "../assets/Images/samuel.jpg",
+      "../assets/Images/samuel3.jpg",
+      "../assets/Images/sammy2.jpg",
+      "../assets/Images/giusi.jpg",
+      "../assets/Images/sammy4.jpg"
     ]
   },
 
@@ -266,11 +267,11 @@ const tours = {
     guests: 200,
     price: 1150,
     images: [
-      "images/eliana-M.jpg",
-      "images/eliana1.jpg",
-      "images/eliana2.jpg",
-      "images/eliana3.jpg",
-      "images/eliana4.jpg"
+      "../assets/Images/eliana-M.jpg",
+      "../assets/Images/eliana1.jpg",
+      "../assets/Images/eliana2.jpg",
+      "../assets/Images/eliana3.jpg",
+      "../assets/Images/eliana4.jpg"
     ]
   },
 
@@ -282,11 +283,11 @@ const tours = {
     guests: 200,
     price: 990,
     images: [
-      "images/nasyr.jpg",
-      "images/nasyr1.jpg",
-      "images/nasyr2.jpg",
-      "images/nasyr3.jpg",
-      "images/nasyr4.jpg"
+      "../assets/Images/nasyr.jpg",
+      "../assets/Images/nasyr1.jpg",
+      "../assets/Images/nasyr2.jpg",
+      "../assets/Images/nasyr3.jpg",
+      "../assets/Images/nasyr4.jpg"
     ]
   },
 
@@ -298,11 +299,11 @@ const tours = {
     guests: 200,
     price: 1650,
     images: [
-      "images/raphael.jpg",
-      "images/raphael2.jpg",
-      "images/raphael3.jpg",
-      "images/raphael4.jpg",
-      "images/raphael1.jpg"
+      "../assets/Images/raphael.jpg",
+      "../assets/Images/raphael2.jpg",
+      "../assets/Images/raphael3.jpg",
+      "../assets/Images/raphael4.jpg",
+      "../assets/Images/raphael1.jpg"
     ]
   },
 
@@ -314,11 +315,11 @@ const tours = {
     guests: 200,
     price: 2200,
     images: [
-      "images/florian.jpg",
-      "images/florian1.jpg",
-      "images/florian2.jpg",
-      "images/florian3.jpg",
-      "images/florian4.jpg"
+      "../assets/Images/florian.jpg",
+      "../assets/Images/florian1.jpg",
+      "../assets/Images/florian2.jpg",
+      "../assets/Images/florian3.jpg",
+      "../assets/Images/florian4.jpg"
     ]
   },
 
@@ -330,11 +331,11 @@ const tours = {
     guests: 200,
     price: 3400,
     images: [
-      "images/shutterstock.jpg",
-      "images/shutterstock1.jpg",
-      "images/shutterstock2.jpg",
-      "images/shutterstock3.jpg",
-       "images/raghu.jpg",
+      "../assets/Images/shutterstock.jpg",
+      "../assets/Images/shutterstock1.jpg",
+      "../assets/Images/shutterstock2.jpg",
+      "../assets/Images/shutterstock3.jpg",
+      "../assets/Images/raghu.jpg"
     ]
   },
 
@@ -346,11 +347,11 @@ const tours = {
     guests: 200,
     price: 1850,
     images: [
-      "images/daniel1.jpg",
-      "images/daniel2.jpg",
-      "images/daniel3.jpg",
-      "images/daniel4.jpg",
-      "images/daniel15.jpg"
+      "../assets/Images/daniel1.jpg",
+      "../assets/Images/daniel2.jpg",
+      "../assets/Images/daniel3.jpg",
+      "../assets/Images/daniel4.jpg",
+      "../assets/Images/daniel5.jpg"
     ]
   }
 };
@@ -437,3 +438,4 @@ function openImagePopup(imageSrc) {
 
   document.body.appendChild(popup);
 }
+```
